@@ -1,0 +1,186 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4c4949;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+    margin: auto 250px;
+}
+
+.top a{
+    text-decoration: none;
+    color: #4c4949;
+}
+
+header{
+    border-bottom: solid 1px #888888;
+    position: fixed;
+    background-color: white;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+span{
+    color: #6592c9;
+}
+
+.pointer{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.center{
+    background-image:url("/src/img/img-fundo.jpg");
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center div{
+    background-color: #0a9077b3;
+    color: white;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+.center p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.welcome{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.rooms{
+    height: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content:space-between;
+    text-align: center;
+}
+
+.rooms img{
+    height: 300px;
+}
+
+.rooms a{
+    text-decoration: none;
+    border-bottom: 2px solid #0a9077b3;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #4c4949;
+    font-weight: bold;
+}
+
+.map, .information{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;
+    align-items: center;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+
+.information2 img{
+    height: 130px;
+    width: 120px;
+    margin-right: 40px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.information2{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-contends{
+    width: 387px;
+    line-height: 25px;
+}
+
+footer{
+    height: 120px;
+    background-color: #49997d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contacts{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: solid 2px #316b56;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+h4{
+    margin-right: 14px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h5{
+    margin-top: 12px;
+}
+
